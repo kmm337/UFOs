@@ -10,11 +10,13 @@ This webpage allows users to analyze UFO sighting data, including date, city, st
 
 The webpage is reached at file:///C:/Users/kathy/Desktop/GITRepositories/UFOs/index.html and opens to display the enire database of UFO sightings. The data may be filtered on various fields (date, city, state, country and shape) to create different views for analysis.
 
-The filtering tool is on the left hand side of the page. To change the data display, enter the appropriate values. After entering a value in a field press enter, tab or click on another field, and the table will refreshh as defined by the new filters.
-
-Example: Homepage
+Homepage:
 
 ![Homepage](static/images/homepage.PNG)
+
+The filtering tool is on the left hand side of the page. To change the data display, enter the appropriate values. After entering a value in a field press enter, tab or click on another field, and the table will refresh as defined by the new filter.
+
+### Filtering on One Field
 
 Example: Filter on City
 
@@ -22,19 +24,21 @@ Enter a city name using all lower case. Scroll through the homepage to see the a
 
 ![Filter on City](static/images/city_filter.PNG)
 
-Example: Filter on Multiple Fields
+### Filtering on Multiple Fields
 
 Enter the value for the first field. Enter "triangle" in the Shape field. The table is refreshed to display only the sightings of triangle shapes.
 
 ![Filter on Shape](static/images/shape_filter.PNG)
 
-Enter 'ca' in the State and the table is refreshed applying the additional filter of California sightings. 
+Enter 'ca' in the State field and the table is refreshed applying the additional filter of sightings in California. 
 
 ![Filter on State](static/images/shape_state_filter.PNG)
 
-To remove a filter, delete value in the field. To remove all filters at once, refresh the page.
+### Remove a filter
 
-## Summary one drawback of the design and 2 recommendations for further development.
+To delete a fielter, delete the value in the field. To remove all filters at once, refresh the page.
+
+## Summary
 
 ### Limitations of Design
 
